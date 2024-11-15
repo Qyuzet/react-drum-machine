@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+}
+
+#drum-machine {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #222;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+}
+
+#display {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #0095ff;
+  margin-bottom: 2rem;
+}
+
+.drum-pads {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.drum-pad {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  background-color: #444;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.drum-pad:hover {
+  background-color: #555;
+}
+
+.drum-pad:active {
+  background-color: #666;
+}
+
+.clip {
+  display: none;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 400px;
+}
+
+.power-container,
+.volume-container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.power-indicator {
+  width: 20px;
+  height: 20px;
+  background-color: #0095ff;
+  border-radius: 50%;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.power-indicator.active {
+  background-color: #00ff00;
+}
+
+.power-label,
+.volume-icon {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #0095ff;
+  margin-left: 0.5rem;
+}
+
+.volume-container input[type="range"] {
+  -webkit-appearance: none;
+  width: 100px;
+  height: 10px;
+  background-color: #444;
+  border-radius: 5px;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
+
+.volume-container input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  background-color: #0095ff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.volume-container input[type="range"]::-moz-range-thumb {
+  width: 15px;
+  height: 15px;
+  background-color: #0095ff;
+  border-radius: 50%;
+  cursor: pointer;
+}
