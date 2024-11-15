@@ -25,7 +25,7 @@ A Drum Machine built using ReactJS that allows users to play different drum soun
 
 2. Navigate into the project directory:
     ```bash
-    cd drum-machine
+    cd react-drum-machine
     ```
 
 3. Install the necessary dependencies:
