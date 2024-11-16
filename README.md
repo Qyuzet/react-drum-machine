@@ -1,6 +1,6 @@
 # Drum Machine
 
-A Drum Machine built using ReactJS that allows users to play different drum sounds by clicking on buttons or pressing corresponding keys on the keyboard. It features an interactive user interface with volume control and a power switch. [TRY NOW!](https://codepen.io/Riki-A/pen/PoMgwMJ)
+A Drum Machine built using ReactJS that allows users to play different drum sounds by clicking on buttons or pressing corresponding keys on the keyboard. It features an interactive user interface with volume control and a power switch. [TRY NOW!](https://react-drum-machine-gamma.vercel.app/)
 
 ## Features
 
@@ -42,7 +42,7 @@ A Drum Machine built using ReactJS that allows users to play different drum soun
 
 ## Demo
 
-You can view a live demo of this project [here](https://codepen.io/Riki-A/pen/PoMgwMJ).
+You can view a live demo of this project [here](https://react-drum-machine-gamma.vercel.app/).
 
 
 ## Project Structure
